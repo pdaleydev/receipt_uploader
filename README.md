@@ -5,4 +5,4 @@ The pipeline is triggered by an S3 upload event, which invokes an AWS Lambda fun
 # Security
 Security is enforced throughout the pipeline through the use of granular IAM roles and policies. Each service is granted only the specific permissions required to perform its function, adhering strictly to the principle of least privilege and ensuring that no component of the architecture has broader access than necessary.
 # System Diagram
-![System Architecture](documentation/system-diagram.png)
+![System Architecture](documentation/system-diagramv2.png)
