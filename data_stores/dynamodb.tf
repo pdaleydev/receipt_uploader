@@ -25,6 +25,6 @@ resource "aws_dynamodb_table" "receipt_table" {
   #}
 
   tags = {
-    Project     = "Receipt Uploader - Terraform"
+    Project     = var.project_name
   }
 }
