@@ -36,6 +36,17 @@ override.tf.json
 .terraformrc
 terraform.rc
 
+# Ignore Source Code
+.env
+*src/*
+*.py
+
+# Ignore User Data Scripts
+*user_data.tpl
+
+# Ignore my notes.
+*.txt
+
 # Hide website code files. Ensure all private information is hidden, top priority for me.
 *.css
 *.html
